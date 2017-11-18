@@ -3,3 +3,6 @@
 
 # Backup:
 *.l#?
+
+# Script:
+*.ps1
