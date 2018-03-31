@@ -5341,8 +5341,8 @@ Source: &lt;a href= "http://www.hirose.co.jp/cataloge_hp/e58605370.pdf"&gt;Data 
 <text x="10.16" y="0" size="1.778" layer="95">&gt;NAME</text>
 <text x="10.16" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="LED-RGB-C">
-<description>Common &lt;b&gt;Cathode&lt;/b&gt; RGB LED</description>
+<symbol name="LED-RGB-A">
+<description>Common &lt;b&gt;Anode&lt;/b&gt; RGB LED</description>
 <wire x1="-1.016" y1="-1.016" x2="1.016" y2="-1.016" width="0.254" layer="94"/>
 <wire x1="-3.556" y1="-1.016" x2="-1.524" y2="-1.016" width="0.254" layer="94"/>
 <wire x1="1.524" y1="-1.016" x2="3.556" y2="-1.016" width="0.254" layer="94"/>
@@ -6839,9 +6839,9 @@ Source: &lt;a href= "http://www.hirose.co.jp/cataloge_hp/e58605370.pdf"&gt;Data 
 </device>
 </devices>
 </deviceset>
-<deviceset name="LED-RGB-C" prefix="D">
+<deviceset name="LED-RGB-A" prefix="D">
 <gates>
-<gate name="A" symbol="LED-RGB-C" x="0" y="0"/>
+<gate name="A" symbol="LED-RGB-A" x="0" y="0"/>
 </gates>
 <devices>
 <device name="-3528" package="3528-4">
